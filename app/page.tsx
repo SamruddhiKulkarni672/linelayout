@@ -1,4 +1,5 @@
 "use client";
+import PaintingRankGrid from "@/component/Painting";
 import { motion } from "framer-motion";
 import { FaBeer } from "react-icons/fa";
 
@@ -112,6 +113,8 @@ export default function LyznFlowSection() {
                     </div>
                 </div>
             </div>
+
+            <PaintingRankGrid/>
 
 
 
